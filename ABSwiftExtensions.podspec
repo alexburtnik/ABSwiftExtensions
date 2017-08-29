@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'ABSwiftExtensions'
   s.version          = '0.1.0'
-  s.summary          = 'Extensions to make developers\' life easier'
+  s.summary          = 'UIKit and Foundation extensions'
  
   s.description      = <<-DESC
-UIKit and Foundation extensions
+  Extensions to make developers\' life easier
                        DESC
  
   s.homepage         = 'https://github.com/alexburtnik/ABSwiftExtensions'
@@ -13,6 +13,6 @@ UIKit and Foundation extensions
   s.source           = { :git => 'https://github.com/alexburtnik/ABSwiftExtensions.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = '*.swift'
+  s.source_files = 'Sources/**/*'
  
 end

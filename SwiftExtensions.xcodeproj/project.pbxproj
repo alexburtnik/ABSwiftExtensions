@@ -11,21 +11,20 @@
 		3A276D7C1F56277400F4B1E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276D7B1F56277400F4B1E1 /* ViewController.swift */; };
 		3A276D7F1F56277400F4B1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A276D7D1F56277400F4B1E1 /* Main.storyboard */; };
 		3A276D811F56277400F4B1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A276D801F56277400F4B1E1 /* Assets.xcassets */; };
-		3A276D841F56277400F4B1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A276D821F56277400F4B1E1 /* LaunchScreen.storyboard */; };
-		3A276DEE1F5629A700F4B1E1 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DDD1F5629A700F4B1E1 /* UIImage+Blur.swift */; };
-		3A276DEF1F5629A700F4B1E1 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DDE1F5629A700F4B1E1 /* UIImage+Resize.swift */; };
-		3A276DF01F5629A700F4B1E1 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DDF1F5629A700F4B1E1 /* UIScrollView+Extensions.swift */; };
-		3A276DF11F5629A700F4B1E1 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE01F5629A700F4B1E1 /* UIView+Animations.swift */; };
-		3A276DF21F5629A700F4B1E1 /* UIView+IBInspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE11F5629A700F4B1E1 /* UIView+IBInspectables.swift */; };
-		3A276DF31F5629A700F4B1E1 /* Photos+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE31F5629A700F4B1E1 /* Photos+Extensions.swift */; };
-		3A276DF41F5629A700F4B1E1 /* CALayer+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE51F5629A700F4B1E1 /* CALayer+Geometry.swift */; };
-		3A276DF51F5629A700F4B1E1 /* CGAffineTransform+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE61F5629A700F4B1E1 /* CGAffineTransform+Extensions.swift */; };
-		3A276DF61F5629A700F4B1E1 /* CGRect+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE71F5629A700F4B1E1 /* CGRect+Geometry.swift */; };
-		3A276DF71F5629A700F4B1E1 /* CoreGraphics+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE81F5629A700F4B1E1 /* CoreGraphics+Description.swift */; };
-		3A276DF81F5629A700F4B1E1 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DE91F5629A700F4B1E1 /* Geometry.swift */; };
-		3A276DF91F5629A700F4B1E1 /* GeometryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DEA1F5629A700F4B1E1 /* GeometryOperators.swift */; };
-		3A276DFA1F5629A700F4B1E1 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DEB1F5629A700F4B1E1 /* UIView+Geometry.swift */; };
-		3A276DFB1F5629A700F4B1E1 /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A276DED1F5629A700F4B1E1 /* Numbers+Extensions.swift */; };
+		3AF2DC541F562C8F00CEB114 /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC431F562C8F00CEB114 /* Numbers+Extensions.swift */; };
+		3AF2DC551F562C8F00CEB114 /* CALayer+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC451F562C8F00CEB114 /* CALayer+Geometry.swift */; };
+		3AF2DC561F562C8F00CEB114 /* CGAffineTransform+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC461F562C8F00CEB114 /* CGAffineTransform+Extensions.swift */; };
+		3AF2DC571F562C8F00CEB114 /* CGRect+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC471F562C8F00CEB114 /* CGRect+Geometry.swift */; };
+		3AF2DC581F562C8F00CEB114 /* CoreGraphics+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC481F562C8F00CEB114 /* CoreGraphics+Description.swift */; };
+		3AF2DC591F562C8F00CEB114 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC491F562C8F00CEB114 /* Geometry.swift */; };
+		3AF2DC5A1F562C8F00CEB114 /* GeometryOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC4A1F562C8F00CEB114 /* GeometryOperators.swift */; };
+		3AF2DC5B1F562C8F00CEB114 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC4B1F562C8F00CEB114 /* UIView+Geometry.swift */; };
+		3AF2DC5C1F562C8F00CEB114 /* Photos+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC4D1F562C8F00CEB114 /* Photos+Extensions.swift */; };
+		3AF2DC5D1F562C8F00CEB114 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC4F1F562C8F00CEB114 /* UIImage+Blur.swift */; };
+		3AF2DC5E1F562C8F00CEB114 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC501F562C8F00CEB114 /* UIImage+Resize.swift */; };
+		3AF2DC5F1F562C8F00CEB114 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC511F562C8F00CEB114 /* UIScrollView+Extensions.swift */; };
+		3AF2DC601F562C8F00CEB114 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC521F562C8F00CEB114 /* UIView+Animations.swift */; };
+		3AF2DC611F562C8F00CEB114 /* UIView+IBInspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2DC531F562C8F00CEB114 /* UIView+IBInspectables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,22 +33,21 @@
 		3A276D7B1F56277400F4B1E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A276D7E1F56277400F4B1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A276D801F56277400F4B1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A276D831F56277400F4B1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A276D851F56277400F4B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A276DDD1F5629A700F4B1E1 /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
-		3A276DDE1F5629A700F4B1E1 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
-		3A276DDF1F5629A700F4B1E1 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
-		3A276DE01F5629A700F4B1E1 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
-		3A276DE11F5629A700F4B1E1 /* UIView+IBInspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectables.swift"; sourceTree = "<group>"; };
-		3A276DE31F5629A700F4B1E1 /* Photos+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photos+Extensions.swift"; sourceTree = "<group>"; };
-		3A276DE51F5629A700F4B1E1 /* CALayer+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Geometry.swift"; sourceTree = "<group>"; };
-		3A276DE61F5629A700F4B1E1 /* CGAffineTransform+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Extensions.swift"; sourceTree = "<group>"; };
-		3A276DE71F5629A700F4B1E1 /* CGRect+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Geometry.swift"; sourceTree = "<group>"; };
-		3A276DE81F5629A700F4B1E1 /* CoreGraphics+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Description.swift"; sourceTree = "<group>"; };
-		3A276DE91F5629A700F4B1E1 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
-		3A276DEA1F5629A700F4B1E1 /* GeometryOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryOperators.swift; sourceTree = "<group>"; };
-		3A276DEB1F5629A700F4B1E1 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
-		3A276DED1F5629A700F4B1E1 /* Numbers+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numbers+Extensions.swift"; sourceTree = "<group>"; };
+		3AF2DC431F562C8F00CEB114 /* Numbers+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numbers+Extensions.swift"; sourceTree = "<group>"; };
+		3AF2DC451F562C8F00CEB114 /* CALayer+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Geometry.swift"; sourceTree = "<group>"; };
+		3AF2DC461F562C8F00CEB114 /* CGAffineTransform+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+Extensions.swift"; sourceTree = "<group>"; };
+		3AF2DC471F562C8F00CEB114 /* CGRect+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Geometry.swift"; sourceTree = "<group>"; };
+		3AF2DC481F562C8F00CEB114 /* CoreGraphics+Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Description.swift"; sourceTree = "<group>"; };
+		3AF2DC491F562C8F00CEB114 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		3AF2DC4A1F562C8F00CEB114 /* GeometryOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryOperators.swift; sourceTree = "<group>"; };
+		3AF2DC4B1F562C8F00CEB114 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
+		3AF2DC4D1F562C8F00CEB114 /* Photos+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photos+Extensions.swift"; sourceTree = "<group>"; };
+		3AF2DC4F1F562C8F00CEB114 /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		3AF2DC501F562C8F00CEB114 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		3AF2DC511F562C8F00CEB114 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		3AF2DC521F562C8F00CEB114 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		3AF2DC531F562C8F00CEB114 /* UIView+IBInspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectables.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,60 +80,67 @@
 		3A276D781F56277400F4B1E1 /* SwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				3A276DDC1F5629A700F4B1E1 /* UIKit */,
-				3A276DE21F5629A700F4B1E1 /* Photos */,
-				3A276DE41F5629A700F4B1E1 /* Geometry */,
-				3A276DEC1F5629A700F4B1E1 /* Foundation */,
+				3AF2DC411F562C8F00CEB114 /* Sources */,
 				3A276D791F56277400F4B1E1 /* AppDelegate.swift */,
 				3A276D7B1F56277400F4B1E1 /* ViewController.swift */,
 				3A276D7D1F56277400F4B1E1 /* Main.storyboard */,
 				3A276D801F56277400F4B1E1 /* Assets.xcassets */,
-				3A276D821F56277400F4B1E1 /* LaunchScreen.storyboard */,
 				3A276D851F56277400F4B1E1 /* Info.plist */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
 		};
-		3A276DDC1F5629A700F4B1E1 /* UIKit */ = {
+		3AF2DC411F562C8F00CEB114 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3A276DDD1F5629A700F4B1E1 /* UIImage+Blur.swift */,
-				3A276DDE1F5629A700F4B1E1 /* UIImage+Resize.swift */,
-				3A276DDF1F5629A700F4B1E1 /* UIScrollView+Extensions.swift */,
-				3A276DE01F5629A700F4B1E1 /* UIView+Animations.swift */,
-				3A276DE11F5629A700F4B1E1 /* UIView+IBInspectables.swift */,
+				3AF2DC421F562C8F00CEB114 /* Foundation */,
+				3AF2DC441F562C8F00CEB114 /* Geometry */,
+				3AF2DC4C1F562C8F00CEB114 /* Photos */,
+				3AF2DC4E1F562C8F00CEB114 /* UIKit */,
 			);
-			path = UIKit;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AF2DC421F562C8F00CEB114 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2DC431F562C8F00CEB114 /* Numbers+Extensions.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
-		3A276DE21F5629A700F4B1E1 /* Photos */ = {
+		3AF2DC441F562C8F00CEB114 /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
-				3A276DE31F5629A700F4B1E1 /* Photos+Extensions.swift */,
-			);
-			path = Photos;
-			sourceTree = "<group>";
-		};
-		3A276DE41F5629A700F4B1E1 /* Geometry */ = {
-			isa = PBXGroup;
-			children = (
-				3A276DE51F5629A700F4B1E1 /* CALayer+Geometry.swift */,
-				3A276DE61F5629A700F4B1E1 /* CGAffineTransform+Extensions.swift */,
-				3A276DE71F5629A700F4B1E1 /* CGRect+Geometry.swift */,
-				3A276DE81F5629A700F4B1E1 /* CoreGraphics+Description.swift */,
-				3A276DE91F5629A700F4B1E1 /* Geometry.swift */,
-				3A276DEA1F5629A700F4B1E1 /* GeometryOperators.swift */,
-				3A276DEB1F5629A700F4B1E1 /* UIView+Geometry.swift */,
+				3AF2DC451F562C8F00CEB114 /* CALayer+Geometry.swift */,
+				3AF2DC461F562C8F00CEB114 /* CGAffineTransform+Extensions.swift */,
+				3AF2DC471F562C8F00CEB114 /* CGRect+Geometry.swift */,
+				3AF2DC481F562C8F00CEB114 /* CoreGraphics+Description.swift */,
+				3AF2DC491F562C8F00CEB114 /* Geometry.swift */,
+				3AF2DC4A1F562C8F00CEB114 /* GeometryOperators.swift */,
+				3AF2DC4B1F562C8F00CEB114 /* UIView+Geometry.swift */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
 		};
-		3A276DEC1F5629A700F4B1E1 /* Foundation */ = {
+		3AF2DC4C1F562C8F00CEB114 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				3A276DED1F5629A700F4B1E1 /* Numbers+Extensions.swift */,
+				3AF2DC4D1F562C8F00CEB114 /* Photos+Extensions.swift */,
 			);
-			path = Foundation;
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		3AF2DC4E1F562C8F00CEB114 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2DC4F1F562C8F00CEB114 /* UIImage+Blur.swift */,
+				3AF2DC501F562C8F00CEB114 /* UIImage+Resize.swift */,
+				3AF2DC511F562C8F00CEB114 /* UIScrollView+Extensions.swift */,
+				3AF2DC521F562C8F00CEB114 /* UIView+Animations.swift */,
+				3AF2DC531F562C8F00CEB114 /* UIView+IBInspectables.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +203,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A276D841F56277400F4B1E1 /* LaunchScreen.storyboard in Resources */,
 				3A276D811F56277400F4B1E1 /* Assets.xcassets in Resources */,
 				3A276D7F1F56277400F4B1E1 /* Main.storyboard in Resources */,
 			);
@@ -211,22 +215,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF2DC541F562C8F00CEB114 /* Numbers+Extensions.swift in Sources */,
+				3AF2DC5A1F562C8F00CEB114 /* GeometryOperators.swift in Sources */,
+				3AF2DC611F562C8F00CEB114 /* UIView+IBInspectables.swift in Sources */,
+				3AF2DC601F562C8F00CEB114 /* UIView+Animations.swift in Sources */,
+				3AF2DC571F562C8F00CEB114 /* CGRect+Geometry.swift in Sources */,
+				3AF2DC5C1F562C8F00CEB114 /* Photos+Extensions.swift in Sources */,
+				3AF2DC561F562C8F00CEB114 /* CGAffineTransform+Extensions.swift in Sources */,
+				3AF2DC5E1F562C8F00CEB114 /* UIImage+Resize.swift in Sources */,
+				3AF2DC551F562C8F00CEB114 /* CALayer+Geometry.swift in Sources */,
+				3AF2DC581F562C8F00CEB114 /* CoreGraphics+Description.swift in Sources */,
+				3AF2DC591F562C8F00CEB114 /* Geometry.swift in Sources */,
 				3A276D7C1F56277400F4B1E1 /* ViewController.swift in Sources */,
-				3A276DF51F5629A700F4B1E1 /* CGAffineTransform+Extensions.swift in Sources */,
-				3A276DEF1F5629A700F4B1E1 /* UIImage+Resize.swift in Sources */,
-				3A276DF31F5629A700F4B1E1 /* Photos+Extensions.swift in Sources */,
-				3A276DF81F5629A700F4B1E1 /* Geometry.swift in Sources */,
-				3A276DF01F5629A700F4B1E1 /* UIScrollView+Extensions.swift in Sources */,
-				3A276DF61F5629A700F4B1E1 /* CGRect+Geometry.swift in Sources */,
-				3A276DEE1F5629A700F4B1E1 /* UIImage+Blur.swift in Sources */,
+				3AF2DC5B1F562C8F00CEB114 /* UIView+Geometry.swift in Sources */,
+				3AF2DC5D1F562C8F00CEB114 /* UIImage+Blur.swift in Sources */,
 				3A276D7A1F56277400F4B1E1 /* AppDelegate.swift in Sources */,
-				3A276DF91F5629A700F4B1E1 /* GeometryOperators.swift in Sources */,
-				3A276DFB1F5629A700F4B1E1 /* Numbers+Extensions.swift in Sources */,
-				3A276DF21F5629A700F4B1E1 /* UIView+IBInspectables.swift in Sources */,
-				3A276DF11F5629A700F4B1E1 /* UIView+Animations.swift in Sources */,
-				3A276DF71F5629A700F4B1E1 /* CoreGraphics+Description.swift in Sources */,
-				3A276DFA1F5629A700F4B1E1 /* UIView+Geometry.swift in Sources */,
-				3A276DF41F5629A700F4B1E1 /* CALayer+Geometry.swift in Sources */,
+				3AF2DC5F1F562C8F00CEB114 /* UIScrollView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,14 +243,6 @@
 				3A276D7E1F56277400F4B1E1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A276D821F56277400F4B1E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A276D831F56277400F4B1E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
