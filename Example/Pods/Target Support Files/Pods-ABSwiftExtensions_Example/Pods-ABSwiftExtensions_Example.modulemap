@@ -1,0 +1,6 @@
+framework module Pods_ABSwiftExtensions_Example {
+  umbrella header "Pods-ABSwiftExtensions_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

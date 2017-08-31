@@ -1,0 +1,16 @@
+PODS:
+  - ABSwiftExtensions (0.1.2)
+
+DEPENDENCIES:
+  - ABSwiftExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  ABSwiftExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABSwiftExtensions: 452c32c839d2a5c69e74e332aeb4362d73ac718f
+
+PODFILE CHECKSUM: 9a8ca246a92c909ab44410027646eaeaf36f16fd
+
+COCOAPODS: 1.3.1

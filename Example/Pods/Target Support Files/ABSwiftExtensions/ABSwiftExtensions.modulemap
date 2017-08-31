@@ -1,0 +1,6 @@
+framework module ABSwiftExtensions {
+  umbrella header "ABSwiftExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
