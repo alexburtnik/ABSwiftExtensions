@@ -17,6 +17,11 @@ public struct Circle {
         guard round(rect.width - 2 * radius) >= 0 && round(rect.height - 2 * radius) >= 0 else { return nil }
         return center.vectorToRect(rect.insetBy(dx: radius, dy: radius))        
     }
+    
+    public init(center: CGPoint, radius: CGFloat) {
+        self.center = center
+        self.radius = radius
+    }
 }
 
 public struct Segment {
