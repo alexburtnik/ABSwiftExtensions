@@ -40,17 +40,7 @@ public extension CGRect {
         get { return origin.y }
         set { origin.y = newValue }
     }
-    
-    public var width: CGFloat {
-        get { return size.width }
-        set { size.width = newValue }
-    }
-    
-    public var height: CGFloat {
-        get { return size.height }
-        set { size.height = newValue }
-    }
-    
+        
     public var aspectRatio: CGFloat {
         return size.aspectRatio
     }
@@ -60,7 +50,7 @@ public extension CGRect {
     public var left: CGFloat {
         get { return x }
         set {
-            width += x - newValue
+            size.width += x - newValue
             x = newValue
         }
     }
@@ -68,19 +58,19 @@ public extension CGRect {
     public var top: CGFloat {
         get { return y }
         set {
-            height += origin.y - newValue
+            size.height += origin.y - newValue
             y = newValue
         }
     }
     
     public var right: CGFloat {
         get { return x + width }
-        set { width = newValue - x }
+        set { size.width = newValue - x }
     }
     
     public var bottom: CGFloat {
         get { return y + height }
-        set { height = newValue - y }
+        set { size.height = newValue - y }
     }
     
     //MARK Corners
