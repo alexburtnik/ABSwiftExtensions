@@ -14,11 +14,12 @@ public extension UIBarButtonItem {
         self.tintColor = color
     }
     
-    public static func buttonItem(title: String, color: UIColor?, font: UIFont? = nil, target: Any?, action: Selector) -> UIBarButtonItem {
+    public static func buttonItem(title: String, color: UIColor?, font: UIFont? = nil, titleColor: UIColor? = .white, target: Any?, action: Selector) -> UIBarButtonItem {
         let button = UIButton(type: .custom)
         button.backgroundColor = color
         button.setTitle(title, for: .normal)
         button.titleLabel?.font = font ?? UIFont.systemFont(ofSize: 14)
+        button.setTitleColor(titleColor, for: .normal)
         
         var size = button.sizeThatFits(CGSize(width: 100, height: 35))
         size.width += 30
