@@ -88,14 +88,20 @@ public extension UIView {
     }
     
     public static func animateEaseOut(_ duration: TimeInterval, delay: TimeInterval = 0, animations: @escaping ()->Void, completion: (()->Void)? = nil) {
-        UIView.animate(
-            withDuration: duration,
-            delay: delay,
-            usingSpringWithDamping: 1,
-            initialSpringVelocity: 0.6,
-            options: .allowUserInteraction,
-            animations: animations,
-            completion: { _ in completion?() })
+        if duration > 0 || delay > 0 {
+            UIView.animate(
+                withDuration: duration,
+                delay: delay,
+                usingSpringWithDamping: 1,
+                initialSpringVelocity: 0.6,
+                options: .allowUserInteraction,
+                animations: animations,
+                completion: { _ in completion?() })
+        }
+        else {
+            animations()
+            completion?()
+        }
     }
     
 
